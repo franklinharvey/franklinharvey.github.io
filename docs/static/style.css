@@ -9,7 +9,7 @@ body {
     .affix {
       top: 0;
       width: 100%;
-      z-index: 9999 !important;
+      z-index: 9999;
     }
     .affix ~ .container-fluid{
       position: relative;
@@ -18,9 +18,9 @@ body {
   	p {font-size: 16px;}
   	.margin {margin-bottom: 4px;}
     .footer{
-        margin-bottom: 0 !important;
-        padding-top: 4px !important;
-        padding-bottom: 0px !important;
+        margin-bottom: 0;
+        padding-top: 4px;
+        padding-bottom: 0px;
     }
   	.bg-1 {
       	background-color: #4484CE; /* Cerulean */
@@ -32,7 +32,7 @@ body {
   	}
   	.bg-3 {
         background-color: #F9CF00; /* Light */
-      	color: #FFF !important;
+      	color: #FFF;
   	}
   	.bg-4 {
       	background-color: #2f2f2f; /* Dark Grey */
@@ -40,24 +40,24 @@ body {
   	}
     .bg-5 {
         background-color: #F19F4D; /* Tangerine */
-        color: #fff !important;
+        color: #fff;
     }
   	.container-fluid {
         padding-top: 70px;
       	padding-bottom: 70px;
   	}
   	.navbar {
-        padding-top: 4px !important;
-      	padding-bottom: 0px !important;
+        padding-top: 4px;
+      	padding-bottom: 0px;
       	border: 0;
-      	border-radius: 0 !important;
-      	margin-bottom: 0 !important;
+      	border-radius: 0;
+      	margin-bottom: 0;
       	font-size: 12px;
       	letter-spacing: 5px;
         min-height:28px;
   	}
   	.navbar-nav  li a:hover {
-      	color: #1abc9c !important;
+      	color: #1abc9c;
         /*height: 28px;*/
   	}
     .small-block {
@@ -68,16 +68,16 @@ body {
 
     }
     a:link, a:visited {
-        color: #474e5d !important;
+        color: #474e5d;
         /*padding: 14px 25px;*/
         text-align: center; 
         text-decoration: none;
         display: inline-block;
     }
     a:hover, a:active {
-        color: #4484CE !important;
+        color: #4484CE;
         font-weight: 400;
-        text-decoration: none !important;
+        text-decoration: none;
     }
     strong{
       color: #FFF;
