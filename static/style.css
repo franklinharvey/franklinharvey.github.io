@@ -6,9 +6,6 @@ body {
       	color: #f5f6f7;
       	position: relative;
   	}
-    h3 {
-      padding-bottom: 1000px;
-    }
     .affix {
       top: 0;
       width: 100%;
@@ -70,10 +67,10 @@ body {
     .row {
 
     }
-    /*.projects {
+    .projects {
       padding-top: 20px;
       padding-bottom: 20px;
-    }*/
+    }
     a:link, a:visited {
         color: #474e5d;
         /*padding: 14px 25px;*/
