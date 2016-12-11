@@ -1,1 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><defs><style>.cls-1{fill:#58595b;}.cls-2{fill:#fff;}</style></defs><title>Asset 5</title><g id="Layer_2" data-name="Layer 2"><g id="Icons"><circle class="cls-1" cx="24" cy="24" r="24"/><path class="cls-2" d="M13.15,34h5.42s5.91-.22,5.91-6.2c0,0,.26-4.86-3.48-4.86,0,0,2.84-.22,2.84-3.73S21.51,14,18.56,14H9.12V34h4Zm0-16.52h5.42s1.31,0,1.31,2-.77,2.33-1.65,2.33H13.15Zm0,7.39h5.42s2,0,2,2.69c0,2.29-1.46,2.53-2.23,2.55H13.15Z"/><path class="cls-2" d="M32.36,19c-7.15,0-7.15,7.52-7.15,7.52S24.72,34,32.36,34c0,0,6.37.38,6.37-5.21H35.45s.11,2.11-3,2.11a3.08,3.08,0,0,1-3.28-3.41h9.64S39.89,19,32.36,19Zm-3.2,5.89s.4-3,3.28-3,2.84,3,2.84,3Z"/><rect class="cls-2" x="28.35" y="15.15" width="7.68" height="1.85"/></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48 48" style="enable-background:new 0 0 48 48;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#58595B;}
+</style>
+<title>Asset 5</title>
+<g id="Layer_2">
+	<g id="Icons">
+		<circle class="st0" cx="24" cy="24" r="24"/>
+		<path class="st1" d="M13.1,34h5.4c0,0,5.9-0.2,5.9-6.2c0,0,0.3-4.9-3.5-4.9c0,0,2.8-0.2,2.8-3.7S21.5,14,18.6,14H9.1v20H13.1
+			L13.1,34z M13.1,17.5h5.4c0,0,1.3,0,1.3,2s-0.8,2.3-1.6,2.3h-5.1V17.5z M13.1,24.9h5.4c0,0,2,0,2,2.7c0,2.3-1.5,2.5-2.2,2.5h-5.2
+			V24.9z"/>
+		<path class="st1" d="M32.4,19c-7.1,0-7.1,7.5-7.1,7.5S24.7,34,32.4,34c0,0,6.4,0.4,6.4-5.2h-3.3c0,0,0.1,2.1-3,2.1
+			c-1.7,0.1-3.2-1.2-3.3-2.9c0-0.2,0-0.4,0-0.6h9.6C38.8,27.5,39.9,19,32.4,19z M29.2,24.9c0,0,0.4-3,3.3-3s2.8,3,2.8,3H29.2z"/>
+		<rect x="28.4" y="15.1" class="st1" width="7.7" height="1.9"/>
+	</g>
+</g>
+</svg>
