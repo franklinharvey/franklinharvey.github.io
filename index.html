@@ -3,7 +3,6 @@
 <head>
 	<title>Franklin Harvey</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="static/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- Fonts -->
@@ -12,6 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="static/style.css">
 	
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50" >
@@ -26,31 +26,29 @@
 	      		</button>
 		      	<div>
 		      		<a href="#top">
-		      			<p class="navbar-brand">
-		      			<img src="static/img/icon_white.svg" class="img-responsive img-rounded margin" style="display:inline" alt="icon" width="40">
-		      			</p>
+		      			<img src="static/img/icon_white.svg" class="img-responsive margin" style="display:inline" alt="icon" width="40">
 		      		</a>
 		      	</div>
 	    	</div>
 	    	<div class="collapse navbar-collapse" id="myNavbar">
-	      		<ul class="nav navbar-nav navbar-right">
-	        	<li><a href="#about">ABOUT ME</a></li>
-	        	<li><a href="#projects">PROJECTS</a></li>
-	        	<li><a href="#connect">CONNECT</a></li>
+	      		<ul id="nav" class="nav navbar-nav navbar-right navbar-elements">
+		        	<li><a href="#about">ABOUT ME</a></li>
+		        	<li><a href="#projects">PROJECTS</a></li>
+		        	<li><a href="#connect">CONNECT</a></li>
 	      		</ul>
 	    	</div>
 	</nav>
 
 	<!-- Hero -->
 	<div class="container-fluid bg-1 text-center" id="top">
-	  	<br><br><img src="static/img/icon_white.svg" class="img-responsive img-rounded" style="display:inline" alt="icon" width="200" height="200">
-	  	<h2 class="margin">Hello, I'm Franklin</h2><br>
+	  	<img src="static/img/icon_white.svg" class="img-responsive top-image" style="display:inline" alt="icon" width="200" height="200">
+	  	<h2 class="margin">Hello, I'm Franklin</h2>
 	  	<p>I'm a developer, a designer, and a musician</p>
 	</div>
 
 	<!-- About -->
 	<div class="container-fluid bg-2 text-center" id="about">
-	  	<h2 class="margin">About Me</h2><br>
+	  	<h2 class="margin">About Me</h2>
 	  	<p>I really dig working with data. Whether it is analyzing it, using it to make predictions, or visualizing it, I find myself working with data (even if just for fun.)</p>
 	  	<p>I also gravitate towards web development. I think as web progresses, especially mobile, more people can find what they need without needing a specific app or platform.</p>
 	  	<p>I enjoy cycling, playing guitar with <a href="https://soundcloud.com/joshuavanachorn" target="_blank">Joshua VanAchorn</a>, and designing things to be printed.</p>
@@ -58,7 +56,7 @@
 
 	<!-- Projects -->
 	<div class="container-fluid bg-4 text-center" id="projects">
-		<h2 class="margin">Here are some projects I've worked on</h2><br>
+		<h2 class="margin">Here are some projects I've worked on</h2>
 		<div class="col-sm-4">
 			<a href="https://t2nerb.github.io/Knome/" target="_blank">
 				<img src="static/img/knome.png" height="200px">
@@ -81,7 +79,7 @@
 
 	<!-- Connect -->
 	<div class="container-fluid bg-5 text-center" id="connect">
-		<h2 class="margin">Connect with me</h2><br>
+		<h2 class="margin">Connect with me</h2>
 		<ul class="list-inline">
 			<li class="margin">
 				<a href="https://www.instagram.com/frarvey/" target="_blank"><img src="static/img/instagram.svg" class="social-link"></a>
@@ -105,16 +103,18 @@
 
 		<div id="email">
 			<h4>Want to sign up for emails?</h4>
-			<div class="col-xs-4">
+			<div class="col-sm-3">
 				<input id="txtFirstName" type="text" placeholder="First Name" class="form-control">
 			</div>
-			<div class="col-xs-4">
+			<div class="col-sm-3">
 				<input id="txtLastName" type="text" placeholder="Last Name" class="form-control">
 			</div>
-			<div class="col-xs-4">
+			<div class="col-sm-3">
 				<input id="txtEmail" type="email" placeholder="Email" class="form-control">
 			</div>
-			<button type="button" id="btnSignUp" class="btn btn-primary">Sign Up!</button>
+			<div class="col-sm-3">
+				<button type="button" id="btnSignUp" class="btn btn-primary">Sign Up!</button>
+			</div>
 		</div>
 
 

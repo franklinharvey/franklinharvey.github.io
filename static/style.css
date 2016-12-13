@@ -1,5 +1,3 @@
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
-
 body {
   font: 20px Montserrat, sans-serif;
   line-height: 1.8;
@@ -16,15 +14,18 @@ body {
   top: 50px;
 }
 h1,h2,h3,h4,h5,h6 {
-  margin-bottom: 10cm;
+  margin-bottom: 16px;
 }
 p {font-size: 16px;}
-.margin {margin-bottom: 16px;}
+.margin {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 .footer{
   margin-bottom: 0;
   padding-top: 4px;
   padding-bottom: 0px;
-  }
+}
 .bg-1 {
   background-color: #4484CE; /* Cerulean */
   color: #ffffff;
@@ -46,8 +47,6 @@ p {font-size: 16px;}
   color: #fff;
 }
 .btn {
-  padding-top: 20px;
-  margin-top: 20px;
 }
 .social-link{
   fill: #000;
@@ -57,19 +56,22 @@ p {font-size: 16px;}
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.navbar-elements{
+  padding: 8px 8px 8px 8px;
+}
 .navbar {
-  padding-top: 4px;
-  padding-bottom: 0px;
+  padding: 20px 20px 20px 20px;
   border: 0;
   border-radius: 0;
-  margin-bottom: 0px; !important
+  margin-top: 10px; 
+  margin-bottom: 0px;
   font-size: 12px;
   letter-spacing: 5px;
   min-height:28px;
 }
 .navbar-nav  li a:hover {
   color: #1abc9c;
-  /*height: 28px;*/
+  height: 28px;
 }
 .small-block {
   background-color: #ffffff;
@@ -78,6 +80,9 @@ p {font-size: 16px;}
 .row {}
 .projects {
   padding: 20px;
+}
+.top-image{
+  margin-top: 100px;
 }
 a:link, a:visited {
   color: #474e5d;
@@ -93,4 +98,7 @@ a:hover, a:active {
 }
 strong{
   color: #FFF;
+}
+#myNavbar{
+  font-size: 16px;
 }
