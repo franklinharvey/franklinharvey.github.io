@@ -45,6 +45,10 @@ p {font-size: 16px;}
   background-color: #F19F4D; /* Tangerine */
   color: #fff;
 }
+.btn {
+  padding-top: 20px;
+  margin-top: 20px;
+}
 .social-link{
   fill: #000;
   height: 64px;
