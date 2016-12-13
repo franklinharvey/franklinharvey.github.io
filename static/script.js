@@ -7,7 +7,6 @@
 	    storageBucket: "personal-site-1e6e3.appspot.com",
 	    messagingSenderId: "1063535386214"
   	};
-	console.log("IN SCRIPT");
 	firebase.initializeApp(config);
 
 	const txtEmail = document.getElementById('txtEmail');
@@ -16,7 +15,6 @@
 	const btnSignUp = document.getElementById('btnSignUp');
 
 	btnSignUp.addEventListener('click', e => {
-		console.log("IN SIGN UP");
 		const email = txtEmail.value;
 		const firstName = txtFirstName.value;
 		const lastName = txtLastName.value;
@@ -32,13 +30,11 @@
 			alert("Please enter an email address");
 			return;
 		}
-		console.log("BEFORE SAVE EVENT");
 		saveUser(email,firstName,lastName);
 		clearField(txtEmail,txtFirstName,txtLastName);
 	});
 
 	function saveUser(email,firstName,lastName) {
-		console.log("IN SAVE USER");
 		const entry = firstName+lastName;
 		firebase.database().ref("EmailList/" + entry).set({
 			FirstName : firstName,
@@ -47,7 +43,6 @@
 		});
 	};
 	function clearField(txtEmail,txtFirstName,txtLastName) {
-    	console.log("IN CLEAR FIELD");
     	txtEmail.value = "";
     	txtFirstName.value = "";
     	txtLastName.value = "";
