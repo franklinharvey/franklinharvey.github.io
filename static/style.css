@@ -27,7 +27,9 @@ p {font-size: 16px;}
   padding-bottom: 0px;
 }
 .bg-1 {
-  background-color: #4484CE; /* Cerulean */
+  background: #00d2ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #ffffff;
 }
 .bg-2 {
@@ -63,11 +65,10 @@ p {font-size: 16px;}
   padding: 20px 20px 20px 20px;
   border: 0;
   border-radius: 0;
-  margin-top: 10px; 
   margin-bottom: 0px;
   font-size: 12px;
   letter-spacing: 5px;
-  min-height:28px;
+  min-height: 28px;
 }
 .navbar-nav  li a:hover {
   color: #1abc9c;
