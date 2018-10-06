@@ -1,0 +1,35 @@
+body {
+  background-color: #e6e0e8;
+  color: #333333;
+  animation: colorchange 100s; /* animation-name followed by duration in seconds*/
+     /* you could also use milliseconds (ms) or something like 2.5s */
+  -webkit-animation: colorchange 100s; /* Chrome and Safari */
+}
+
+@keyframes colorchange
+{
+  0%   {background: #d3bfd2;}
+  25%  {background: #f2ecdc;}
+  50%  {background: #fca5e3;}
+  75%  {background: #e6e0e8;}
+  100% {background: #d3bfd2;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #d3bfd2;}
+  25%  {background: #f2ecdc;}
+  50%  {background: #fca5e3;}
+  75%  {background: #e6e0e8;}
+  100% {background: #d3bfd2;}
+}
+
+
+.container {
+  margin-top: 64px;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.4);
+  box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.4);
+  padding: 16px;
+}
