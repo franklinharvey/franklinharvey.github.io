@@ -1,31 +1,12 @@
 body {
-  background-color: #e6e0e8;
+  background-color: mintcream;
   color: #333333;
-  animation: colorchange 100s;
-  -webkit-animation: colorchange 100s;
 }
-
-@keyframes colorchange
-{
-  0%   {background: #d3bfd2;}
-  25%  {background: #f2ecdc;}
-  50%  {background: #fca5e3;}
-  75%  {background: #e6e0e8;}
-  100% {background: #d3bfd2;}
-}
-
-@-webkit-keyframes colorchange
-{
-  0%   {background: #d3bfd2;}
-  25%  {background: #f2ecdc;}
-  50%  {background: #fca5e3;}
-  75%  {background: #e6e0e8;}
-  100% {background: #d3bfd2;}
-}
-
 
 .container {
   margin-top: 64px;
+  margin-bottom: 64px;
+  border-radius: 16px;
   background-color: white;
   -webkit-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.4);
   -moz-box-shadow: 0px 0px 40px -1px rgba(0,0,0,0.4);
