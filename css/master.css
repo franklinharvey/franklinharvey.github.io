@@ -1,9 +1,8 @@
 body {
   background-color: #e6e0e8;
   color: #333333;
-  animation: colorchange 100s; /* animation-name followed by duration in seconds*/
-     /* you could also use milliseconds (ms) or something like 2.5s */
-  -webkit-animation: colorchange 100s; /* Chrome and Safari */
+  animation: colorchange 100s;
+  -webkit-animation: colorchange 100s;
 }
 
 @keyframes colorchange
@@ -15,7 +14,7 @@ body {
   100% {background: #d3bfd2;}
 }
 
-@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+@-webkit-keyframes colorchange
 {
   0%   {background: #d3bfd2;}
   25%  {background: #f2ecdc;}
