@@ -3,6 +3,10 @@ body {
   color: #333333;
 }
 
+.bg-light {
+  background-color: ghostwhite;
+}
+
 .container {
   margin-top: 64px;
   margin-bottom: 64px;
