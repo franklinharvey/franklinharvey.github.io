@@ -9,7 +9,7 @@ function ImageWall(): ReactElement {
   const [activeImage, setActiveImage] = useState(1);
 
   let imgMap = [];
-  const imgLen = 16;
+  const imgLen = 17;
 
   for (let i = 1; i <= imgLen; i++) {
     const img = (
