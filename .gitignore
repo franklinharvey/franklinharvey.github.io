@@ -137,6 +137,9 @@ dist
 # vuepress build output
 .vuepress/dist
 
+# Eleventy
+_site/
+
 # vuepress v2.x temp and cache directory
 .temp
 

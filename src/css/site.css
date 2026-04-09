@@ -1,0 +1,24 @@
+body {
+  font-family: ui-monospace, monospace;
+  max-width: 42rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  line-height: 1.5;
+}
+
+header nav a {
+  margin-right: 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 1.5rem 0;
+}
+
+figcaption {
+  margin-top: 0.35rem;
+}

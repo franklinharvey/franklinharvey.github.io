@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# franklinharvey.github.io
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal site: [Eleventy](https://www.11ty.dev/) static site, deployed to GitHub Pages.
 
-## Available Scripts
+## Local development
 
-In the project directory, you can run:
+```bash
+yarn install
+yarn start
+```
 
-### `yarn start`
+Build output is written to `_site/`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+yarn build
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## GitHub Pages
 
-### `yarn test`
+This repo uses **GitHub Actions** to build and deploy (Eleventy is not Jekyll). After pushing to `master`:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. In the repository **Settings → Pages**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
+2. The workflow in `.github/workflows/deploy.yml` runs `yarn install --frozen-lockfile`, `yarn build`, and publishes `_site`.
 
-### `yarn build`
+The [`src/CNAME`](src/CNAME) file is copied into the build so the custom domain keeps working.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Blog (including photo posts)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Add Markdown under [`src/blog/posts/`](src/blog/posts/). Directory data in [`posts.json`](src/blog/posts/posts.json) sets layout and permalinks. Front matter: `title`, `date` (ISO `YYYY-MM-DD`).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For a post with images, use a folder next to the file or put assets in a subfolder, then reference them with the `image` shortcode (paths are relative to the `.md` file):
 
-### `yarn eject`
+```markdown
+{% image "./my-photo.jpg", "Alt text for accessibility" %}
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+*Visible caption in markdown below the image.*
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can also use HTML `<figure>` / `<figcaption>` around the shortcode if you prefer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Images are processed at build time by [`@11ty/eleventy-img`](https://www.11ty.dev/docs/plugins/image/) (responsive AVIF/WebP/JPEG, lazy loading).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Repo size
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Large originals inflate the repo and slow clones. Prefer reasonable JPEG exports in-repo; keep RAW masters elsewhere or use Git LFS if you must version huge sources.
