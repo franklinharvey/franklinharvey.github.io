@@ -1,75 +1,59 @@
 ---
-title: Wall
-date: 2024-06-01
+title: Random pictures
+date: 2026-04-09
 ---
 
-Photos from the old home page. Replace the *Caption* lines with copy for each shot.
+A random collection of pictures I have
 
 {% image "./img-01.jpg", "" %}
 
-*Caption.*
+Go little man, go. | Fujifilm GFX 50S
 
 {% image "./img-02.jpg", "" %}
 
-*Caption.*
+Aircraft grade | Fujifilm GFX 50S
 
 {% image "./img-03.jpg", "" %}
 
-*Caption.*
+Lil' isle | Fujifilm GFX 50S
 
 {% image "./img-04.jpg", "" %}
 
-*Caption.*
+Backyard | Fujifilm GFX 50S
 
 {% image "./img-05.jpg", "" %}
 
-*Caption.*
-
-{% image "./img-06.jpg", "" %}
-
-*Caption.*
-
-{% image "./img-07.jpg", "" %}
-
-*Caption.*
+Salmon swimming upstream | Fujifilm GFX 50S
 
 {% image "./img-08.jpg", "" %}
 
-*Caption.*
-
-{% image "./img-09.jpg", "" %}
-
-*Caption.*
+She's talking to me | Fujifilm GFX 50S
 
 {% image "./img-10.jpg", "" %}
 
-*Caption.*
+Konica Auto S2
 
 {% image "./img-11.jpg", "" %}
 
-*Caption.*
+Nikon L35 AF
 
 {% image "./img-12.jpg", "" %}
 
-*Caption.*
+Nikon L35 AF
 
 {% image "./img-13.jpg", "" %}
 
-*Caption.*
+Nikon L35 AF
 
 {% image "./img-14.jpg", "" %}
 
-*Caption.*
+Nikon L35 AF
 
 {% image "./img-15.jpg", "" %}
 
-*Caption.*
+Nikon L35 AF
 
 {% image "./img-16.jpg", "" %}
 
-*Caption.*
-
-{% image "./img-17.jpg", "" %}
-
-*Caption.*
+Nikon L35 AF
 
